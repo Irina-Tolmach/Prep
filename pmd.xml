@@ -1,7 +1,10 @@
 <ruleset xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          name="quickstart" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
-
+ <description>
+        My custom rules
+    </description>
+         
     <exclude-pattern>.*/main/java/.*</exclude-pattern>
     <include-pattern>.*/main/java/Player.*</include-pattern>
 
